@@ -31,6 +31,6 @@
 <TextBlock Text="Author" Foreground="#AAAAAA" Margin="0,12,0,4"/><TextBox Text="{Binding Book.Author, UpdateSourceTrigger=PropertyChanged}"/><Separator Margin="0,20"/>
 <TextBlock Text="PAGE" Foreground="White" FontSize="18" FontWeight="Bold"/><TextBlock Text="Page name" Foreground="#AAAAAA" Margin="0,18,0,4"/><TextBox Text="{Binding SelectedPage.Name, UpdateSourceTrigger=PropertyChanged}"/>
 <TextBlock Text="Page size" Foreground="#AAAAAA" Margin="0,12,0,4"/><TextBlock Text="{Binding PageSizeText}" Foreground="White"/><Separator Margin="0,20"/>
-<TextBlock Text="LAYOUT" Foreground="White" FontSize="18" FontWeight="Bold"/><TextBlock Text="Tip" Foreground="#AAAAAA" TextWrapping="Wrap" Margin="0,12,0,0" Text="Write directly on the page. Use the toolbar for typography and alignment. Pages are stored in the project file."/>
+<TextBlock Text="LAYOUT" Foreground="White" FontSize="18" FontWeight="Bold"/><TextBlock Text="Tip: Write directly on the page. Use the toolbar for typography and alignment. Pages are stored in the project file." Foreground="#AAAAAA" TextWrapping="Wrap" Margin="0,12,0,0"/>
 </StackPanel></ScrollViewer></Border>
 </Grid></DockPanel></Window>
